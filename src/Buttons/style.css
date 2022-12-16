@@ -1,0 +1,42 @@
+.buttons {
+    display: flex;
+    gap: 30px;
+    max-width: 40%;
+    padding: 0;
+}
+
+.buttons__button {
+    font-size: 22px;
+    border: none;
+    color: teal;
+    background-color: white;
+    margin: auto;
+    padding: 0;
+    transition: 0.4s;
+}
+
+.buttons__button:hover {
+    opacity: 0.8;
+}
+
+.buttons__button:disabled {
+    color: grey;
+}
+
+.hideElement {
+    visibility: hidden;
+}
+
+@media (max-width: 767px) {
+    .buttons {
+        max-width: 90%;
+        flex-direction: column;
+        margin: 0 auto;
+        padding: 40px 0;
+    }
+    
+    .buttons__button {
+        font-size: 20px;
+    }
+} 
+
