@@ -11,7 +11,7 @@
     border-bottom: 2px solid #e9e9e9f0; 
 }
 
-.section__header--withButtons {
+.section__header--extraContent {
     display: flex;
     justify-content: space-between;
 }

@@ -1,11 +1,7 @@
-import './style.css';
+import "./style.css";
 
-const Container = ({children}) => {
-    return (
-        <main className="container">
-            {children}
-        </main>
-    )
+const Container = ({ children }) => {
+  return <main className="container">{children}</main>;
 };
 
 export default Container;
