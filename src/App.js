@@ -7,8 +7,6 @@ import Header from "./Header";
 import Container from "./Container";
 import "./index.css";
 
-const allTasksCompleted = false;
-
 function App() {
   const [hideDone, setHideDone] = useState(false);
   const [tasks, setTasks] = useState([
@@ -69,7 +67,6 @@ function App() {
           <Buttons
             tasks={tasks}
             hideDone={hideDone}
-            allTasksCompleted={allTasksCompleted}
             toggleHideDone={toggleHideDone}
             completeAllTasks={completeAllTasks}
           />
