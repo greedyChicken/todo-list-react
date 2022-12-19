@@ -1,8 +1,8 @@
-# Todo-list 
+# Todo-list
 
-Welcome to my todo-list project made with React.js. 
+Welcome to my todo-list project made with React.js.
 
-![todo-list](https://github.com/greedyChicken/todo-list-react/blob/main/public/lista.png)
+![todo-list](https://github.com/greedyChicken/todo-list-react/blob/main/src/images/lista.png)
 
 Here you can try it:
 https://greedychicken.github.io/todo-list-react/
