@@ -1,7 +1,7 @@
-import "./style.css";
+import { Main } from "./styled";
 
 const Container = ({ children }) => {
-  return <main className="container">{children}</main>;
+  return <Main>{children}</Main>;
 };
 
 export default Container;
