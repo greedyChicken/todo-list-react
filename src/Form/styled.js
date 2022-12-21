@@ -19,7 +19,7 @@ export const FormInput = styled.input`
   margin-right: 25px;
   border: 2px solid #e9e9e9f0;
 
-  @media (max-width) {
+  @media (max-width: 767px) {
     width: 85%;
     font-size: 20px;
     padding: 10px;
@@ -41,7 +41,7 @@ export const FormButton = styled.button`
     transform: scale(1.1);
   }
 
-  @media (max-width) {
+  @media (max-width: 767px) {
     max-width: 1000px;
     width: 85%;
     font-size: 20px;
