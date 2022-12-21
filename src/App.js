@@ -9,11 +9,9 @@ import "./index.css";
 
 function App() {
   const [hideDone, setHideDone] = useState(false);
-  const [tasks, setTasks] = useState(() => {
-    const saved = localStorage.getItem("tasks");
-    const initialValue = JSON.parse(saved);
-    return initialValue || [];
-  });
+  const [tasks, setTasks] = useState(
+    () => JSON.parse(localStorage.getItem("tasks")) || []
+  );
 
   useEffect(() => {
     localStorage.setItem("tasks", JSON.stringify(tasks));
