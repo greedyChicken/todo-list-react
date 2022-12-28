@@ -42,15 +42,15 @@ export const Button = styled.button`
   padding: 0;
   transition: 0.4s;
 
-  ${({ toggleDone }) =>
-    toggleDone &&
-    css`
-      background-color: rgb(62, 172, 62);
-    `}
+  &:hover {
+    opacity: 0.8;
+  }
+`;
 
-  ${({ remove }) =>
-    remove &&
-    css`
-      background-color: red;
-    `}
+export const ToggleDoneButton = styled(Button)`
+  background-color: rgb(62, 172, 62);
+`;
+
+export const RemoveButton = styled(Button)`
+  background-color: red;
 `;
