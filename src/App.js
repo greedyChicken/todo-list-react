@@ -4,8 +4,7 @@ import Tasks from "./Tasks";
 import Buttons from "./Buttons";
 import Section from "./Section";
 import Header from "./Header";
-import Container from "./Container";
-import "./index.css";
+import { Container } from "./Container/styled";
 import { useTasks } from "./useTasks";
 
 function App() {
