@@ -2,13 +2,14 @@ import { useDispatch } from "react-redux";
 import Form from "./Form";
 import TaskList from "./TaskList";
 import Buttons from "./Buttons";
-import Section from "../../common/Section";
-import Header from "../../common/Header";
-import { Container } from "../../common/Container/styled";
+import Section from "../../../common/Section";
+import Header from "../../../common/Header";
+import { Container } from "../../../common/Container/styled";
 import { Button } from "./SectionButton/styled";
-import { fetchExampleTasks } from "./tasksSlice";
+import { fetchExampleTasks } from "../tasksSlice";
+import Search from "./Search";
 
-function Tasks() {
+function TasksPage() {
   const dispatch = useDispatch();
 
   return (
@@ -23,6 +24,7 @@ function Tasks() {
           </Button>
         }
       />
+      <Section title="Wyszukiwarka" body={<Search />} />
 
       <Section
         title="Lista zadań"
@@ -33,4 +35,4 @@ function Tasks() {
   );
 }
 
-export default Tasks;
+export default TasksPage;
