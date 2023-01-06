@@ -2,16 +2,14 @@ import { Link } from "react-router-dom";
 import styled, { css } from "styled-components";
 
 export const List = styled.ul`
-  margin-top: 0;
-  padding: 25px 0 5px;
+  padding: 0;
 `;
 
 export const Item = styled.li`
   list-style: none;
   font-weight: 400;
   border-bottom: 2px solid #e9e9e9f0;
-  margin: 20px 30px;
-  padding: 10px;
+  margin: 20px 0;
   display: flex;
   gap: 15px;
 

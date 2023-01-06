@@ -3,7 +3,6 @@ import styled from "styled-components";
 export const FormElement = styled.form`
   display: flex;
   margin: 0;
-  padding: 30px;
 
   @media (max-width: 767px) {
     flex-direction: column;

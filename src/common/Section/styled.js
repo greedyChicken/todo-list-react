@@ -32,3 +32,7 @@ export const SectionTitle = styled.h2`
     margin-bottom: 0;
   }
 `;
+
+export const SectionBody = styled.div`
+  padding: 30px;
+`;
