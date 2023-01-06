@@ -1,7 +1,13 @@
 import { useSelector, useDispatch } from "react-redux";
-import { Link } from "react-router-dom";
 import { useLocation } from "react-router-dom";
-import { List, Item, Content, ToggleDoneButton, RemoveButton } from "./styled";
+import {
+  List,
+  Item,
+  Content,
+  ToggleDoneButton,
+  RemoveButton,
+  StyledLink,
+} from "./styled";
 import {
   toggleTaskDone,
   removeTask,
@@ -26,7 +32,7 @@ const TaskList = () => {
             {task.done ? "✔️" : ""}
           </ToggleDoneButton>
           <Content done={task.done}>
-            <Link to={`/zadania/${task.id}`}>{task.content}</Link>
+            <StyledLink to={`/zadania/${task.id}`}>{task.content}</StyledLink>
           </Content>
           <RemoveButton onClick={() => dispatch(removeTask(task.id))}>
             🗑️

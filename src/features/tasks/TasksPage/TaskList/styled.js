@@ -1,3 +1,4 @@
+import { Link } from "react-router-dom";
 import styled, { css } from "styled-components";
 
 export const List = styled.ul`
@@ -53,4 +54,9 @@ export const ToggleDoneButton = styled(Button)`
 
 export const RemoveButton = styled(Button)`
   background-color: red;
+`;
+
+export const StyledLink = styled(Link)`
+  text-decoration: none;
+  color: teal;
 `;

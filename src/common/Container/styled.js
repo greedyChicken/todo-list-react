@@ -6,7 +6,7 @@ export const Container = styled.main`
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  max-width: 1300px;
+  max-width: 1200px;
 
   @media (max-width: 767px) {
     max-width: 90%;
