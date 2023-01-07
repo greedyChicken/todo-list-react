@@ -7,9 +7,9 @@ export const ButtonsContainer = styled.div`
   padding: 0;
 
   @media (max-width: 767px) {
-    max-width: 90%;
+    max-width: 100%;
     flex-direction: column;
     margin: 0 auto;
-    padding: 40px 0;
+    padding: 30px 0 10px;
   }
 `;

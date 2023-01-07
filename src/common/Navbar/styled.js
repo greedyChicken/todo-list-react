@@ -5,6 +5,11 @@ export const StyledNav = styled.nav`
   max-width: 1200px;
   height: 70px;
   margin: 0 auto;
+
+  @media (max-width: 767px) {
+    max-width: 98%;
+    height: 50px;
+  }
 `;
 
 export const StyledList = styled.ul`

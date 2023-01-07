@@ -23,7 +23,7 @@ export const SectionHeader = styled.header`
 `;
 
 export const SectionTitle = styled.h2`
-  font-size: 28px;
+  font-size: 24px;
   margin: 0;
 
   @media (max-width: 767px) {

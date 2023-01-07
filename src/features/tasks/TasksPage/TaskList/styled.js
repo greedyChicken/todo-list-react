@@ -10,6 +10,7 @@ export const Item = styled.li`
   font-weight: 400;
   border-bottom: 2px solid #e9e9e9f0;
   margin: 20px 0;
+  padding-bottom: 10px;
   display: flex;
   gap: 15px;
 

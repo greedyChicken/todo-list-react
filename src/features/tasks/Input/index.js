@@ -7,9 +7,9 @@ export default styled.input`
   border: 2px solid #e9e9e9f0;
 
   @media (max-width: 767px) {
-    width: 85%;
+    width: 100%;
     font-size: 20px;
     padding: 10px;
-    margin: 0 0 15px 0;
+    margin: 0 auto;
   }
 `;

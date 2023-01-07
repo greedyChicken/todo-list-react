@@ -7,7 +7,6 @@ export const FormElement = styled.form`
   @media (max-width: 767px) {
     flex-direction: column;
     align-items: center;
-    padding: 25px 0;
   }
 `;
 
@@ -19,6 +18,7 @@ export const FormButton = styled.button`
   padding: 10px 10px;
   font-size: 22px;
   transition: 0.4s;
+  margin-left: 20px;
 
   &:hover {
     opacity: 0.8;
@@ -27,7 +27,8 @@ export const FormButton = styled.button`
 
   @media (max-width: 767px) {
     max-width: 1000px;
-    width: 85%;
+    width: 100%;
+    margin: 20px 0 0;
     font-size: 20px;
   }
 `;

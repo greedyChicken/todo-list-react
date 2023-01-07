@@ -1,7 +1,7 @@
 import styled from "styled-components";
 
 export const Container = styled.main`
-  margin: 50px auto 0;
+  margin: 10px auto 0;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -9,7 +9,7 @@ export const Container = styled.main`
   max-width: 1200px;
 
   @media (max-width: 767px) {
-    max-width: 90%;
+    max-width: 98%;
     margin: 0 auto;
   }
 `;
