@@ -1,6 +1,7 @@
-import Section from "../../common/Section";
-import Header from "../../common/Header";
-import { Container } from "../../common/Container/styled";
+import Section from "../../../common/Section";
+import Header from "../../../common/Header";
+import { Container } from "../../../common/Container/styled";
+import { AuthorDescription } from "./styled";
 
 const AuthorPage = () => (
   <Container>
@@ -8,13 +9,14 @@ const AuthorPage = () => (
     <Section
       title="Jan Hickiewicz"
       body={
-        <p>
+        <AuthorDescription>
           Aktualnie zaoczny student informatyki z podstawową znajomością takich
           jezyków jak python, java czy javascript.
+          <br />
           <strong>
             Uczestnik kursu programowania w szkole programowania Youcode.
           </strong>
-        </p>
+        </AuthorDescription>
       }
     />
   </Container>
