@@ -2,7 +2,7 @@
 
 Welcome to my todo-list project made with React.js.
 
-![todo-list](https://github.com/greedyChicken/todo-list-react/blob/main/src/images/lista.png)
+![todo-list](https://github.com/greedyChicken/todo-list-react/blob/main/src/images/task_list_screen.png)
 
 Here you can try it:
 https://greedychicken.github.io/todo-list-react/
