@@ -11,10 +11,10 @@ function TaskPage() {
 
   return (
     <Container>
-      <Header title="Szczegóły zadania" />
+      <Header title="Task details" />
       <Section
-        title={task ? task.content : "Nie znaleziono zadania"}
-        body={task && <>Ukończono: {task.done ? "Tak" : "Nie"}</>}
+        title={task ? task.content : "Task not found"}
+        body={task && <> Completed: {task.done ? "Yes" : "No"}</>}
       />
     </Container>
   );

@@ -33,7 +33,7 @@ const TaskList = () => {
             {task.done ? "✔️" : ""}
           </ToggleDoneButton>
           <Content done={task.done}>
-            <StyledLink to={`/zadania/${task.id}`}>{task.content}</StyledLink>
+            <StyledLink to={`/tasks/${task.id}`}>{task.content}</StyledLink>
           </Content>
           <RemoveButton onClick={() => dispatch(removeTask(task.id))}>
             🗑️

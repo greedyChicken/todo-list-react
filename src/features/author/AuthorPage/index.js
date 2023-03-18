@@ -5,17 +5,16 @@ import { AuthorDescription } from "./styled";
 
 const AuthorPage = () => (
   <Container>
-    <Header title="O autorze" />
+    <Header title="About author" />
     <Section
       title="Jan Hickiewicz"
       body={
         <AuthorDescription>
-          Aktualnie zaoczny student informatyki z podstawową znajomością takich
-          jezyków jak python, java czy javascript.
+          Actually computer science student with knowledge of some popular
+          programming languages like Java, Javascript or Python. Mainly focused
+          on Javascript and React.js.
           <br />
-          <strong>
-            Uczestnik kursu programowania w szkole programowania Youcode.
-          </strong>
+          <strong>Member of Youcode programming school course.</strong>
         </AuthorDescription>
       }
     />

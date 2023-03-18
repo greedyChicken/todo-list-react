@@ -36,12 +36,12 @@ const Form = () => {
         ref={inputRef}
         type="text"
         value={newTaskContent}
-        placeholder="Co jest do zrobienia?"
+        placeholder="What is to do?"
         onChange={({ target }) => {
           setNewTaskContent(target.value);
         }}
       />
-      <FormButton onClick={focusInput}>Dodaj zadanie</FormButton>
+      <FormButton onClick={focusInput}>Add task</FormButton>
     </FormElement>
   );
 };

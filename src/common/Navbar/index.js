@@ -6,10 +6,10 @@ const Navbar = () => {
     <StyledNav>
       <StyledList>
         <ListItem>
-          <StyledNavLink to="/zadania">Zadania</StyledNavLink>
+          <StyledNavLink to="/tasks">Tasks</StyledNavLink>
         </ListItem>
         <ListItem>
-          <StyledNavLink to="/autor">O autorze</StyledNavLink>
+          <StyledNavLink to="/author">About author</StyledNavLink>
         </ListItem>
       </StyledList>
     </StyledNav>

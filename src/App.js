@@ -8,10 +8,10 @@ const App = () => (
   <HashRouter>
     <Navbar />
     <Routes>
-      <Route path="/" element={<Navigate to="/zadania" />}></Route>
-      <Route path="/zadania" element={<TasksPage />}></Route>
-      <Route path="/zadania/:id" element={<TaskPage />}></Route>
-      <Route path="autor" element={<AuthorPage />}></Route>
+      <Route path="/" element={<Navigate to="/tasks" />}></Route>
+      <Route path="/tasks" element={<TasksPage />}></Route>
+      <Route path="/tasks/:id" element={<TaskPage />}></Route>
+      <Route path="author" element={<AuthorPage />}></Route>
     </Routes>
   </HashRouter>
 );
