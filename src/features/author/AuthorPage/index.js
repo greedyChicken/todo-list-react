@@ -14,7 +14,6 @@ const AuthorPage = () => (
           programming languages like Java, Javascript or Python. Mainly focused
           on Javascript and React.js.
           <br />
-          <strong>Member of Youcode programming school course.</strong>
         </AuthorDescription>
       }
     />
